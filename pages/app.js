@@ -26,10 +26,10 @@ var AUTH = getAuth(app);
 var DATABASE = getDatabase(app)
 
 window.signOut = function () {
-
+console.log("runing.")
     signOut(AUTH).then(function (success) {
 
-        window.location.replace("./index.html")
+        window.location.replace("../index.html")
     }).catch(function (error) {
         console.log(error.code)
     })

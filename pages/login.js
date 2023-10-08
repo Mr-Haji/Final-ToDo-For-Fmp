@@ -30,8 +30,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebas
   var AUTH = getAuth(app);
 // var uid;
   window.logIn = function(){
- 
-    var email = logingmail.value;
+     var email = logingmail.value;
     var pasword = loginpasword.value;
 
 

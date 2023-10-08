@@ -1,0 +1,250 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #57f0e3c4;
+}
+
+.main {
+    position: relative;
+    text-align: end;
+    text-align: center;
+    margin: auto;
+    background-color: azure;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0 0 15px #727171;
+    border-radius: 15px;
+    padding: 20px;
+    padding-bottom: 0px;
+    border: 3px solid #fafafa;
+    width: 400px;
+    height: 500px;
+    height: fit-content;
+}
+
+.addInp {
+    border: 1px solid #221efa;
+    border-radius: 30px;
+    background-color: aqua;
+    margin-bottom: 5px;
+}
+
+.inp1st {
+    padding: 20px;
+    font-size: 25px;
+    width: 289px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 30px 0 0 30px;
+}
+
+::placeholder {
+    color: #221efa;
+    font-size: 20px;
+}
+
+.inpBtn {
+    text-align: center;
+    font-size: 25px;
+    border-radius: 0 30px 30px 0;
+    outline: none;
+    border: none;
+    width: 58px;
+    cursor: pointer;
+    padding: 10px;
+    color: #0066b9;
+    background-color: aqua;
+}
+
+.pad {
+    padding: 15px;
+    overflow: hidden;
+
+}
+
+.list {
+    display: flex;
+    border: 1px solid #221efa;
+    border-radius: 30px;
+    width: 350px;
+    background: aqua;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.editLi {
+   
+    border: none;
+    background: transparent;
+    outline: none;
+    margin-bottom: 10px;
+    padding: 10px;
+        font-size: 20px;
+}
+
+.listedit {
+    list-style: none;
+}
+
+.btnvisible {
+    text-align: end;
+    width: 500px;
+}
+.editLiDiv{
+   
+    padding-left: 15px ;
+    border: 1px solid #221efa;
+    border-radius: 30px;
+    width: 350px;
+    background: aqua;
+  
+}
+.mainEdit{
+    display: none;
+}
+.nBtn2 {
+    background: transparent;
+    outline: none;
+    color: #0066b9;
+    cursor: pointer;
+    width: 50px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 0 30px 30px 0;
+    border: none;
+    font-size: 20px;
+    margin-right: -8px;
+}
+
+.nBtn1 {
+    background: transparent;
+    cursor: pointer;
+    width: 50px;
+    color: #0066b9;
+    padding-top: 10px;
+    outline: none;
+    margin-right: -25px;
+    border-radius: 0;
+    border: none;
+    font-size: 20px;
+}
+
+.delAll {
+    font-size: 30px;
+    border-radius: 50px;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: #0066b9;
+    width: 100px;
+    margin-top: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.list2 {
+    display: flex;
+    list-style: none;
+    width: 1600px;
+}
+
+.inp2 {
+    padding-left: 5px;
+    font-size: 15px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid #000102;
+    cursor: pointer;
+    color: #000102;
+    background-color: aqua;
+}
+
+.nBtn3 {
+    background: transparent;
+    cursor: pointer;
+    color: #0066b9;
+    outline: none;
+    border-radius: 0;
+    border: none;
+    margin: 4px;
+
+}
+
+/* login and signup page ================== */
+.loginMain {
+    /* position: relative; */
+    /* text-align: end; */
+    text-align: center;
+    margin: auto;
+    background-color: azure;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0 0 15px #727171;
+    border-radius: 15px;
+    padding: 20px;
+    padding-top: 50px;
+    border: 3px solid #fafafa;
+    width: fit-content;
+    height: 500px;
+    height: fit-content;
+}
+
+.inpBig {
+    color: #000000;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 400px;
+    height: 60px;
+    outline: none;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid #742861;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.inpBigBtn {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 400px;
+    height: 60px;
+    outline: none;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid #742861;
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.github {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+
+}
+
+.projectBy {
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+
+.signOut {
+    font-size: 25px;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    color: #0066b9;
+    width: 150px;
+    margin-top: 10px;
+    height: 40px;
+    cursor: pointer;
+}
